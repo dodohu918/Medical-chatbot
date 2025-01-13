@@ -1,0 +1,67 @@
+{
+    "nodes": {
+      "greeting": {
+        "question": "您好！我在這裡幫助您找到合適的診所。請問您的主要症狀是什麼？",
+        "type": "open-ended",
+        "next": "classify_symptom"
+      },
+      "classify_symptom": {
+        "question": "",
+        "type": "function",
+        "handler": "classifySymptomHandler",
+        "transitions": {}
+      },
+      "find_clinic": {
+        "question": "正在幫您定位最近的診所, 會在對話最後提供給您... 請問您在哪一區？(1=北區, 2=中區, 3=南區, 4=東區, 5=離島)",
+        "type": "multiple_choice",
+        "options": ["1", "2", "3", "4", "5"],
+        "next": {
+          "1": "find_clinic_north",
+          "2": "find_clinic_mid",
+          "3": "find_clinic_south",
+          "4": "find_clinic_east",
+          "5": "find_clinic_out"
+        }
+      },
+      "find_clinic_north": {
+        "question": "請問您在北區哪一個縣市？(1=台北市, 2=新北市, 3=桃園市)",
+        "type": "multiple_choice",
+        "options": ["1", "2", "3"],
+        "optionLabels": {
+          "1": "台北市",
+          "2": "新北市",
+          "3": "桃園市"
+        },
+        "next": {
+          "1": "get_age",
+          "2": "get_age",
+          "3": "get_age"
+        }
+      },
+
+
+      "get_age": {
+        "question": "請輸入您的年齡：",
+        "type": "open-ended",
+        "next": "get_gender"
+      },
+      "get_gender": {
+        "question": "請輸入您的性別：（1 = 男性, 2 = 女性）",
+        "type": "multiple_choice",
+        "options": ["1", "2"],
+        "next": {
+          "1": "get_email",
+          "2": "get_email"}
+      },
+      "get_email":{
+        "question": "請提供您的電子信箱, 默友將會寄您的資料給您！",
+        "type": "open-ended",
+        "next": "end"
+      },
+      "end": {
+        "question": "已經將您的資料寄到您的信箱！感謝您使用本服務，祝您早日康復！",
+        "type": "end"
+      }
+    }
+  }
+  

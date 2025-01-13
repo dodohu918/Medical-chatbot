@@ -1,0 +1,199 @@
+{
+    "categories": [
+      {
+        "label": "abdominal pain",
+        "trigger": "abdominal",         
+        "node": "abdomen_start",
+        "synonyms": ["肚子痛", "胃痛", "腹痛", "消化不良導致的痛"]
+      },
+      {
+        "label": "joint pain",
+        "trigger": "joint pain",
+        "node": "joint_start"
+      },
+      {
+        "label": "numbness feeling or tingling feeling over legs",
+        "trigger": "numbness feeling or tingling feeling over legs",
+        "node": "RLS_start"
+      },
+      {
+        "label": "neck mass",
+        "trigger": "neck mass",
+        "node": "neck_mass_start"
+      },
+      {
+        "label": "lower back pain",
+        "trigger": "lower back pain",
+        "node": "lowerBackPain_start"
+      },
+      {
+        "label": "easy thirsty",
+        "trigger": "easy thirsty",
+        "node": "4_easyThirsty_start"
+      },
+      {
+        "label": "consciousness change",
+        "trigger": "consciousness change",
+        "node": "5_consciousnessChange_start"
+      },
+      {
+        "label": "hand tremor",
+        "trigger": "hand tremor",
+        "node": "6_handTremor_start"
+      },
+      {
+        "label": "eyes are sensitive to light",
+        "trigger": "eyes are sensitive to light",
+        "node": "7_photophobia_start"
+      },
+      {
+        "label": "pale skin",
+        "trigger": "pale skin",
+        "node": "8_paleSkin_start"
+      },
+      {
+        "label": "ringing in the ears (tinnitus)",
+        "trigger": ["ringing in the ears", "tinnitus", "buzzing in the ears"],
+        "node": "9_tinnitus_start",
+        "synonyms": ["耳朵有嗡嗡聲", "我耳朵一直在叫", "耳朵轟轟作響", "耳鳴"]
+      },
+      {
+        "label": "shoulder pain",
+        "trigger": "shoulder pain",
+        "node": "10_shoulderPain_start"
+      },
+      {
+        "label": "chest pain",
+        "trigger": "chest pain",
+        "node": "11_chestPain_start"
+      },
+      {
+        "label": "overeating",
+        "trigger": "overeating",
+        "node": "12_overeating_start"
+      },
+      {
+        "label": "upper limb pain",
+        "trigger": "upper limb pain",
+        "node": "13_upperLimbPain_start"
+      },
+      {
+        "label": "nocturia",
+        "trigger": "nocturia",
+        "node": "14_nocturia_start"
+      },
+      {
+        "label": "groin pain",
+        "trigger": "groin pain",
+        "node": "15_groinPain_start"
+      },
+      {
+        "label": "rectal bleeding",
+        "trigger": "rectal bleeding",
+        "node": "16_rectalBleeding_start"
+      },
+      {
+        "label": "red eye",
+        "trigger": "red eye",
+        "node": "17_redEye_start"
+      },
+      {
+        "label": "eye pain",
+        "trigger": "eye pain",
+        "node": "18_eyePain_start"
+      },
+      {
+        "label": "watery eye",
+        "trigger": "watery eye",
+        "node": "19_wateryEye_start",
+        "synonyms": ["epiphora", "溢淚"]
+      },
+      {
+        "label": "foreign body sensation over throat",
+        "trigger": "foreign body sensation over throat",
+        "node": "20_foreignBodySensationThroat_start",
+        "synonyms": ["喉嚨卡卡的", "喉嚨有異物感"]
+      },
+      {
+        "label": "swollen eye",
+        "trigger": "swollen eye",
+        "node": "21_swollenEye_start"
+      },
+      {
+        "label": "eye discharge",
+        "trigger": "eye discharge",
+        "node": "22_eyeDischarge_start"
+      },
+      {
+        "label": "blurry vision",
+        "trigger": "blurry vision",
+        "node": "23_blurryVision_start"
+      },
+      {
+        "label": "blind spot in vision",
+        "trigger": "blind spot in vision",
+        "node": "24_blindSpotInVision_start"
+      },
+      {
+        "label": "floaters in vision",
+        "trigger": "floaters in vision",
+        "node": "25_floatersInVision_start"
+      },
+      {
+        "label": "difficulties seeing in dim light",
+        "trigger": "difficulties seeing in dim light",
+        "node": "26_difficultySeeingInDimLight_start"
+      },
+      {
+        "label": "flash in vision",
+        "trigger": "flash in vision",
+        "node": "27_flashInVision_start"
+      },
+      {
+        "label": "halos around object",
+        "trigger": "halos around object",
+        "node": "28_halosAroundObjects_start"
+      },
+      {
+        "label": "eye pain when moving",
+        "trigger": "eye pain when moving",
+        "node": "29_eyePainWhenMoving_start"
+      },
+      {
+        "label": "color change in vision",
+        "trigger": "color change in vision",
+        "node": "30_colorChangeInVision_start"
+      },
+      {
+        "label": "double vision",
+        "trigger": "double vision",
+        "node": "31_doubleVision_start"
+      },
+      {
+        "label": "cough",
+        "trigger": "cough",
+        "node": "32_cough_start"
+      },
+      {
+        "label": "chronic cough",
+        "trigger": "chronic cough",
+        "node": "33_chronicCough_start"
+      },
+      {
+        "label": "coughing blood",
+        "trigger": "coughing blood",
+        "node": "34_coughingBlood_start"
+      },
+      {
+        "label": "shortness of breath",
+        "trigger": "shortness of breath",
+        "node": "35_shortnessOfBreath_start"
+      },
+      {
+        "label": "other",
+        "trigger": "other",
+        "node": "abdomen_start"
+      }
+    ]
+  }
+  

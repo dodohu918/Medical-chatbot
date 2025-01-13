@@ -1,0 +1,44 @@
+{
+    "nodes": {
+      "greeting": {
+        "question": "您好！我在這裡幫助您找到合適的診所。請問您的主要症狀是什麼？",
+        "type": "open-ended",
+        "next": "classify_symptom"
+      },
+      "classify_symptom": {
+        "question": "",
+        "type": "function",
+        "handler": "classifySymptomHandler",
+        "transitions": {}
+      },
+      "find_clinic": {
+        "question": "正在幫您尋找最近的診所... 這裡有一家：'台北專科診所，距離2公里'。還有其他需要幫忙的嗎？(1=是, 2=否)",
+        "type": "yes_no",
+        "nextIfYes": "greeting",
+        "nextIfNo": "get_age"
+      },
+      "get_age": {
+        "question": "請輸入您的年齡：",
+        "type": "open-ended",
+        "next": "get_gender"
+      },
+      "get_gender": {
+        "question": "請輸入您的性別：（1 = 男性, 2 = 女性）",
+        "type": "multiple_choice",
+        "options": ["1", "2"],
+        "next": {
+          "1": "get_email",
+          "2": "get_email"}
+      },
+      "get_email":{
+        "question": "請提供您的電子信箱, 默友將會寄您的資料給您！",
+        "type": "open-ended",
+        "next": "end"
+      },
+      "end": {
+        "question": "已經將您的資料寄到您的信箱！感謝您使用本服務，祝您早日康復！",
+        "type": "end"
+      }
+    }
+  }
+  
