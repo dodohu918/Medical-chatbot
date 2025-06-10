@@ -150,9 +150,3 @@ body {
       },
 ```
 ```
-
-Below are some demonstration of the chatbot
-<img width="856" alt="image" src="https://github.com/user-attachments/assets/f214678c-1954-4908-9590-970a55f9ec67" />
-<img width="877" alt="image" src="https://github.com/user-attachments/assets/8a162d80-bb2e-4474-b308-a9efe5b26ffc" />
-<img width="864" alt="image" src="https://github.com/user-attachments/assets/77540bae-8245-4055-87e0-d9894e3d0b87" />
-
