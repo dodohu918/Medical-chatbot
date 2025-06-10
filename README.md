@@ -1,5 +1,5 @@
 # Medical Chatbot Backend
-# For real chatbot workflow demostration, please check out the "Chatbot demonstration" folder
+### For real chatbot workflow demostration, please check out the "Chatbot demonstration" folder
 This repository contains several iterations of a Node.js chatbot that assists patients in selecting the right clinic. Each folder named `ver X.` stores a snapshot of the backend at that stage.
 
 ## Repository Layout
